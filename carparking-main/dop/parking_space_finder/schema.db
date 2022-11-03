@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS todo;
+
+CREATE TABLE todo (
+    user_name VARCHAR(200) NOT NULL,
+    user_pass VARCHAR(200) NOT NULL,
+    date_created DATETIME,
+    PRIMARY KEY (user_name)
+);
+
+
